@@ -45,8 +45,7 @@ const Dashboard: React.FC = () => {
   
 };
   
-  
- 
+   
 
   useEffect(() => {
     listAllDogs();
@@ -141,7 +140,6 @@ const Dashboard: React.FC = () => {
         <Card style={{ width: "415px", marginTop: "50px", height: "500px", border: "none", boxShadow: "0px 8px 24px 0px #00000014",}} >
     
           <Card.Body style={{marginTop: "10px", height: "200px", }}>
-          {/* <img src={require('../../assets/images/caracteristicasIcon.svg')} /> */}
           <Card.Title >Características</Card.Title>
           <Nav.Link>
             <Row>
@@ -256,15 +254,9 @@ const Dashboard: React.FC = () => {
         </Col>
        </Row>
 
-  <br/>
-  </>
-     
-
-     
-
-      
-     
-    </div>
+      <br/>
+    </>
+  </div>
     
   );
 };
